@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ailera_claraluna_0145s.webp",
+            "mobile_image": "shopify:\/\/shop_images\/ACE6A6F2-9E15-4783-AD1A-4468C5537833_1.webp",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "spring season 24",
+            "title": "find you perfect spring look",
+            "button_1_text": "Shop now",
+            "button_1_link": "shopify:\/\/collections\/dresses",
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/products\/cherry-red-classic-heels"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "show_fullscreen": true,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses",
+            "image": "shopify:\/\/shop_images\/ailera_claraluna_0771s.webp",
+            "image_alignment": "bottom center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "dresses",
+            "button_text": "shop",
+            "button_link": "shopify:\/\/collections\/dresses",
+            "apply_overlay": true
+          }
+        },
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/ailera_claraluna_0209es.webp",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "heels",
+            "button_text": "shop",
+            "button_link": "shopify:\/\/collections\/heels",
+            "apply_overlay": true
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/ailera_monicanera_1180es.webp",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "accessories",
+            "button_text": "shop",
+            "button_link": "shopify:\/\/collections\/accessories",
+            "apply_overlay": true
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-0",
+        "collection-2"
+      ],
+      "settings": {
+        "image_size": "large",
+        "add_spacing": true,
+        "expand_collection": false,
+        "stack_on_mobile": true,
+        "text_color": "#ffffff",
+        "button_color": "#000000"
+      }
+    },
+    "slideshow_8q4Fyw": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Hjhpm4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pc_1800x_9bce6416-da60-4649-a630-6f0a39b700c8.webp",
+            "mobile_image": "shopify:\/\/shop_images\/pc_0605908b-4826-4a39-8e0e-91a580e480ae_1800x_1.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/sale",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hjhpm4"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "featured_collections_LLKteY": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_KGbNLB": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "title": "",
+            "grid_items_count": 6,
+            "button_text": "shop new arrivals"
+          }
+        }
+      },
+      "block_order": [
+        "collection_KGbNLB"
+      ],
+      "settings": {
+        "title": "",
+        "layout_mode": "carousel",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "featured_collections_raj3Jt": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_jnX6qy": {
+          "type": "collection",
+          "settings": {
+            "collection": "vip-x-collection-one",
+            "title": "VIP Heels collection",
+            "grid_items_count": 4,
+            "button_text": "View Collection"
+          }
+        }
+      },
+      "block_order": [
+        "collection_jnX6qy"
+      ],
+      "settings": {
+        "title": "",
+        "layout_mode": "carousel",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "17073518199e50ce5c": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_3aBDhE": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Follow us on social media @houseariavalentina",
+            "title_color": "#1c1b1b",
+            "title_size": 24,
+            "alignment": "center",
+            "margin_top": 0,
+            "html_area": "<style>\n#insta-feed h2 {\nfont-family: Helvetica, sans-serif!important;\nfont-size: 30px;\nfont-weight: 400;\n}\n<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_3aBDhE"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "collection-list",
+    "slideshow_8q4Fyw",
+    "featured_collections_LLKteY",
+    "featured_collections_raj3Jt",
+    "17073518199e50ce5c"
+  ]
+}

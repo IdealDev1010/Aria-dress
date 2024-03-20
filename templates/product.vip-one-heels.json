@@ -1,0 +1,214 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        },
+        "liquid_CakNK8": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{% if product.available %}\n\n  <div class=\"instock-pulse\">\n    <span class=\"icon--pulsing\"><\/span>\n    <span>In stock, ready to ship<\/span>\n  <\/div>\n\n  <style>\n\n    .instock-pulse {\n      display: flex;\n      flex-wrap: nowrap;\n      align-items: center;\n    }\n\n    .icon--pulsing {\n      position: relative;\n      width: 20px;\n      height: 20px;\n      margin-right: 10px;\n    }\n\n    .icon--pulsing:after, \n    .icon--pulsing:before {\n        background: #54c63a;\n        width: 10px;\n        height: 10px;\n        border-radius: 10px;\n        position: absolute;\n        left: 0;\n        top: 0;\n        content: \"\";\n        margin: 5px;\n    }\n\n    @keyframes inventory-pulse{\n      0%{\n        opacity:0.5;\n      }\n      to{\n        transform:scale(2.5);\n        opacity:0;\n      }\n    }\n\n    .icon--pulsing:before {\n        animation: inventory-pulse 2s linear infinite;\n    }\n\n  <\/style>\n\n{% endif %}"
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "klarna_on_site_messaging_app_block_VaiLqL": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-auto-size",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "liquid_BacN8b": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"Product__EnjoyReturns\" style=\"margin-top: 12px; margin-bottom: -10px;\">\n  <p style=\"font-family: 'Nunito Sans', sans-serif; font-weight: 600;\"> <!-- Font weight 600 for semi-bold -->\n    <svg style=\"height: 18; width: 24; vertical-align: middle;\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 32 32\">\n      <path fill=\"none\" stroke=\"#222222\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M25.7,10.9C23.9,7.4,20.2,5,16,5 c-4.7,0-8.6,2.9-10.2,7\"\/>\n      <path fill=\"none\" stroke=\"#222222\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M6.2,21c1.8,3.5,5.5,6,9.8,6c4.7,0,8.6-2.9,10.2-7\"\/>\n      <polyline fill=\"none\" stroke=\"#222222\" stroke-width=\"2\" stroke-miterlimit=\"10\" points=\"26,5 26,11 20,11 \"\/>\n      <polyline fill=\"none\" stroke=\"#222222\" stroke-width=\"2\" stroke-miterlimit=\"10\" points=\"6,27 6,21 12,21 \"\/>\n    <\/svg>\n    <span style=\"vertical-align: middle;\">Enjoy 30 Days Returns. <\/span><a href=\"https:\/\/www.ariavalentina.com\/policies\/refund-policy\" style=\"font-family: 'Nunito Sans', sans-serif; font-weight: 600; text-decoration: underline; vertical-align: middle;\">Learn more<\/a>\n  <\/p>\n<\/div>"
+          }
+        },
+        "liquid_MmUeaL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"Product__EnjoyReturns\" style=\"margin-top: -0px; margin-bottom: 29px;\">\n  <p style=\"font-family: 'Nunito Sans', sans-serif; font-weight: 600;\"> <!-- Font weight 600 for semibold -->\n    <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http:\/\/www.w3.org\/2000\/svg' xmlns:xlink='http:\/\/www.w3.org\/1999\/xlink' style=\"vertical-align: middle;\">\n      <rect width='24' height='24' stroke='none' fill='#222222' opacity='0'\/>\n      <g transform=\"matrix(0.83 0 0 0.83 12 12)\">\n        <g style=\"\">\n          <g transform=\"matrix(1 0 0 1 1.75 -1.65)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-13.75, -10.35)\" d=\"M 10.25 6 L 15.75 6 C 16.55 6 17.25 6.7 17.25 7.5 L 17.25 14.7\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 -5.25 5)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-6.75, -17)\" d=\"M 9.25 17 L 4.25 17\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 8.25 0.25)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-20.25, -12.25)\" d=\"M 17.25 7.5 L 20.25 7.5 C 21.95 7.5 23.25 8.8 23.25 10.5 L 23.25 15.5 C 23.25 16.3 22.55 17 21.75 17 L 19.55 17\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 5.65 4.6)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-17.65, -16.6)\" d=\"M 17.65 18.4999 C 18.6993 18.4999 19.55 17.6493 19.55 16.5999 C 19.55 15.5506 18.6993 14.7 17.65 14.7 C 16.6007 14.7 15.75 15.5506 15.75 16.5999 C 15.75 17.6493 16.6007 18.4999 17.65 18.4999 Z\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 -0.85 4.6)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-11.15, -16.6)\" d=\"M 11.15 18.4999 C 12.1993 18.4999 13.05 17.6493 13.05 16.5999 C 13.05 15.5506 12.1993 14.7 11.15 14.7 C 10.1007 14.7 9.25 15.5506 9.25 16.5999 C 9.25 17.6493 10.1007 18.4999 11.15 18.4999 Z\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 2.5 5)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-14.5, -17)\" d=\"M 15.75 17 L 13.25 17\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 9.75 -1.5)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-21.75, -10.5)\" d=\"M 23.25 10.5 L 20.25 10.5\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 -5.75 -6.5)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-6.25, -5.5)\" d=\"M 7.25 5.5 L 5.25 5.5\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 -6.75 -2.5)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-5.25, -9.5)\" d=\"M 7.25 9.5 L 3.25 9.5\" stroke-linecap=\"round\" \/>\n          <\/g>\n          <g transform=\"matrix(1 0 0 1 -8.25 1.5)\">\n            <path style=\"stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;\" transform=\" translate(-3.75, -13.5)\" d=\"M 6.75 13.5 L 0.75 13.5\" stroke-linecap=\"round\" \/>\n          <\/g>\n        <\/g>\n      <\/g>\n    <\/svg>\n    Free delivery on all orders over €50\n  <\/p>\n<\/div>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "content_jEjpPf": {
+          "type": "content",
+          "settings": {
+            "title": "More Information",
+            "content": "<h4>RETURNS<\/h4><ul><li>For full priced items we offer a full refund or free exchange if the item is unsuitable within <strong>30 days of delivery<\/strong>.<\/li><\/ul><p>Please check our return page for more information.<\/p><h4>SIZING<\/h4><p>We recommend checking with our size chart if you are unsure about your size. Sizes can be a bit smaller in size, so we recommend sizing up if you are inbetween sizes.<\/p><h4>Specifications<\/h4><ul><li>Heel Height - <strong>High<\/strong><\/li><li>Washing Instructions - <strong>Pat Dry<\/strong><\/li><li>Occasion Type - <strong>Formal<\/strong><\/li><li>Heel Style - <strong>Court <\/strong><\/li><li>Toe Detail - <strong>Asymmetrical<\/strong><\/li><li>Composition - <strong>100% Polyuretan<\/strong><\/li><\/ul><p>Designed in Paris, France.<\/p>",
+            "page": ""
+          }
+        },
+        "content_JzimNe": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Delivery",
+            "content": "<ul><li>Free Delivery on orders over €50<\/li><li>Delivery normally takes <strong>5-9 work days.<\/strong><\/li><li>Orders are processed within <strong>3 work days.<\/strong><\/li><\/ul><p>Please note that orders can sometimes be subject for delays due to unforseen circumstances.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "liquid_CakNK8",
+        "variant_selector",
+        "quantity_selector",
+        "buy_buttons",
+        "klarna_on_site_messaging_app_block_VaiLqL",
+        "liquid_BacN8b",
+        "liquid_MmUeaL",
+        "description",
+        "content_jEjpPf",
+        "content_JzimNe"
+      ],
+      "custom_css": [
+        "h1 {font-size: 16px;}"
+      ],
+      "settings": {
+        "image_size": "medium",
+        "stack_images": true,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "a5206031ed6806e335d1": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "product_EDxQ9a": {
+          "type": "product",
+          "settings": {
+            "product": "camilla-pointed-toe-black-heels"
+          }
+        },
+        "product_e6hmdw": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_bgEnQh": {
+          "type": "product",
+          "settings": {
+            "product": "emilia-black-rhinestone-heels"
+          }
+        },
+        "product_zt6ymz": {
+          "type": "product",
+          "settings": {
+            "product": "corvina-asymmetrical-black"
+          }
+        },
+        "product_J36MBE": {
+          "type": "product",
+          "settings": {
+            "product": "sofia-suede-black-heels"
+          }
+        }
+      },
+      "block_order": [
+        "product_EDxQ9a",
+        "product_e6hmdw",
+        "product_bgEnQh",
+        "product_zt6ymz",
+        "product_J36MBE"
+      ],
+      "settings": {
+        "heading": "You may also like",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "alireviews-section-cdcb5b24-3b28-4aeb-8bf3-31375477c690": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1708299948b2d9592f": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_8wMy8R": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Follow us on social media @houseariavalentina",
+            "title_color": "#1c1b1b",
+            "title_size": 24,
+            "alignment": "center",
+            "html_area": "<style>\n#insta-feed h2 {\nfont-family: Helvetica, sans-serif!important;\nfont-size: 30px;\nfont-weight: 400;\n}\n<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_8wMy8R"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a5206031ed6806e335d1",
+    "product-recommendations",
+    "recently-viewed-products",
+    "alireviews-section-cdcb5b24-3b28-4aeb-8bf3-31375477c690",
+    "1708299948b2d9592f"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "liquid_CakNK8": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{% if product.available %}\n\n  <div class=\"instock-pulse\">\n    <span class=\"icon--pulsing\"><\/span>\n    <span>In stock, ready to ship<\/span>\n  <\/div>\n\n  <style>\n\n    .instock-pulse {\n      display: flex;\n      flex-wrap: nowrap;\n      align-items: center;\n    }\n\n    .icon--pulsing {\n      position: relative;\n      width: 20px;\n      height: 20px;\n      margin-right: 10px;\n    }\n\n    .icon--pulsing:after, \n    .icon--pulsing:before {\n        background: #54c63a;\n        width: 10px;\n        height: 10px;\n        border-radius: 10px;\n        position: absolute;\n        left: 0;\n        top: 0;\n        content: \"\";\n        margin: 5px;\n    }\n\n    @keyframes inventory-pulse{\n      0%{\n        opacity:0.5;\n      }\n      to{\n        transform:scale(2.5);\n        opacity:0;\n      }\n    }\n\n    .icon--pulsing:before {\n        animation: inventory-pulse 2s linear infinite;\n    }\n\n  <\/style>\n\n{% endif %}"
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_label": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "description",
+        "liquid_CakNK8",
+        "variant_selector",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": true,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "673159ccdc8585e77842": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "a5206031ed6806e335d1": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "alireviews-section-cdcb5b24-3b28-4aeb-8bf3-31375477c690": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "673159ccdc8585e77842",
+    "a5206031ed6806e335d1",
+    "product-recommendations",
+    "recently-viewed-products",
+    "alireviews-section-cdcb5b24-3b28-4aeb-8bf3-31375477c690"
+  ]
+}

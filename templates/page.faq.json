@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-faq",
+      "blocks": {
+        "separator_iHFWq4": {
+          "type": "separator",
+          "settings": {
+            "title": "Delivery"
+          }
+        },
+        "question_9RqUkN": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know if my order has been placed successfully?",
+            "answer": "<p>You will receive an automatic email saying your order has been confirmed.<\/p><p>Once the order has been sent to you, you will receive another email saying your order has been dispatched and we will give you the tracking ID to follow up your shipment.<\/p>"
+          }
+        },
+        "question_nkRph9": {
+          "type": "question",
+          "settings": {
+            "title": "Where is my order?",
+            "answer": "<p>When your order is shipped, you will receive a shipping confirmation with all the relevant information. *Delivery times may be longer during peak seasons due to increased order volume, carrier workload, and other factors such as logistics or inclement weather. We will provide updates if anything unusual occurs to keep you informed.<\/p><p>You can also track it through our <a href=\"https:\/\/www.ariavalentina.com\/a\/order-status\" title=\"https:\/\/www.ariavalentina.com\/a\/order-status\">Tracking Portal<\/a>. There, you can find details about the delivery of your package by entering your email address and zip code or using your tracking number.<\/p><p>Please note that it may take 24-48 hours from the moment your package is shipped for the tracking information to be updated.<\/p>"
+          }
+        },
+        "question_ThNUy6": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take and how much does it cost?",
+            "answer": "<p>Once you are at checkout you can see an estimated timeframe for different shipping method for your product. These are:<\/p><ul><li>Standard Delivery, costs $4.95 and packages are delivered within 6-10 business days after order confirmation.<\/li><li>Premium Delivery, costs $7.95 and packages are delivered within 6-10 business days after order confirmation.<\/li><li>Free shipping on orders over $50<\/li><\/ul><p>Unexpected delays with our carriers may affect delivery times.<\/p>"
+          }
+        },
+        "question_RFjGcf": {
+          "type": "question",
+          "settings": {
+            "title": "What happens when I miss the delivery of my order?",
+            "answer": "<p>Delivery methods may vary depending on the carrier. Typically, your order will be:<\/p><ul><li>Delivered to a nearby pick-up location.<\/li><li>Left with a neighbor unless you've specified otherwise to us or the carrier.<\/li><li>Attempted for delivery again on the next business day.<\/li><\/ul><p>Throughout the process, the carrier will leave you a (digital) note with delivery details.<\/p><p>If you've chosen in-store pickup, the store will hold your order for 14 days after you've been notified of its availability. After this period, the order will be returned to our warehouse, and you'll receive an automatic refund within 10 to 14 days.<\/p>"
+          }
+        },
+        "question_ptX6kB": {
+          "type": "question",
+          "settings": {
+            "title": "What should I do if I’m missing an item or part of my order?",
+            "answer": "<p>If you're missing one or more items from your order <a href=\"\/pages\/contact\" title=\"Contact\">contact us <\/a>and our customer service agent will help you find the rest of your order or replace it for you.<\/p>"
+          }
+        },
+        "question_ez4pnN": {
+          "type": "question",
+          "settings": {
+            "title": "What should I do if I put in the wrong shipping address?",
+            "answer": "<p>Please <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a> as soon as possible and we will change the address to the correct one for you.<\/p><p>Unforunately we cannot change the address once your package has been shipped out, so try to contact us within 48 hours.<\/p>"
+          }
+        },
+        "question_r8FFwR": {
+          "type": "question",
+          "settings": {
+            "title": "What countries do you ship to?",
+            "answer": "<p>Currently we only ship to the United States and Canada, but we will be expanding our shipping lines to Europe and parts of Asia very soon.<\/p>"
+          }
+        },
+        "question_VgDtTt": {
+          "type": "question",
+          "settings": {
+            "title": "My package has been lost\/stolen what should I do?",
+            "answer": "<p>If your package has been lost after being shipped, and you have been charged for the items, we will assist in finding or promptly replacing your purchase.<\/p><p>A package should be considered lost if:<\/p><ul><li>- It shows as delivered to the wrong location<\/li><li>- It shows as delivered to you more than 2 business day ago<\/li><li>- It is 'stuck' in our tracking system for more than 5 business days<\/li><\/ul><p>Please file a lost package report to log the claim. <\/p><p>We will research the shipment, attempt to find it, and failing recovery issue a credit to you in the form of gift card or tender-type refund.<\/p><p>Please expect 1-2 business days for a representative to assist you.<\/p>"
+          }
+        },
+        "separator_xpew8L": {
+          "type": "separator",
+          "settings": {
+            "title": "Orders & Payment"
+          }
+        },
+        "question_kcPHbx": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods can I use?",
+            "answer": "<p>We currently accept the following payment methods for online purchases:<\/p><ul><li>Visa<\/li><li>Mastercard<\/li><li>American Express<\/li><li>Apple Pay<\/li><li>Klarna<\/li><li>PayPal & PayPal Express checkout<\/li><\/ul><p>Please be aware that accepted payment methods may vary by country.<\/p><p>Credit and debit cards are never charged until the order is confirmed. To make sure you are you, the name and address must match that of the credit card used for payment. It’s within our rights to cancel any order that does not match these criteria.<\/p><p>To make sure everything will be delivered to the right address, please check if all the information you put in is correct.<\/p>"
+          }
+        },
+        "question_gTMY9g": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my order?",
+            "answer": "<p>Orders can only be cancelled 30 minutes after the initial purchase was made.<\/p><p>If you wish to cancel an order, please <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a> as soon as possible.<\/p>"
+          }
+        },
+        "question_3btHwi": {
+          "type": "question",
+          "settings": {
+            "title": "Where can I find my order number?",
+            "answer": "<p>You can always find your order number in the confirmation email and in every email that’s related to your order.<\/p>"
+          }
+        },
+        "question_rcaLtL": {
+          "type": "question",
+          "settings": {
+            "title": "Can I modify my order and\/or shipping details?",
+            "answer": "<p>Unfortunately we can’t modify your order. We can try to cancel it for you. Please <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a> as soon as you can (within 30 minutes after placing your order would be perfect) and our customer service representatives will help you from there.<\/p><p>And don’t worry, if the order can’t be cancelled you can always decline the parcel upon arrival or return it to us later. Our <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">return policy<\/a><strong> <\/strong>gives you all the details you might need.<\/p>"
+          }
+        },
+        "question_MXbHa6": {
+          "type": "question",
+          "settings": {
+            "title": "How does Klarna Pay Later work?",
+            "answer": "<p>With Klarna's Pay Later service you can easily buy items on our website and pay for them after you have received the items. <br\/>This means you only pay for the items that you decide to keep.<br\/>Simply choose Klarna Pay Later as a payment method, when placing your order. After placing the order, you’ll receive an order confirmation email and a separate email from Klarna with all the payment details. <\/p><p>You have 30 days to pay for the items from the date that the order is shipped to you.<\/p>"
+          }
+        },
+        "question_biNJAw": {
+          "type": "question",
+          "settings": {
+            "title": "How can I know this website is secure?",
+            "answer": "<p>At Aria Valentina, we prioritize the safety, simplicity, and security of your online shopping experience.<\/p><p>To ensure this, we employ cutting-edge Secure Socket Layer (SSL) technology, encrypting the data you transmit over the internet.<\/p><p>Look for the padlock icon at the top of your browser, indicating SSL activation, and click on it for details about our SSL digital certificate registration.<\/p><p>Additionally, observe that our website's URL begins with 'https:' instead of the standard 'http:' for added security.<\/p><p>In addition, all our accepted payment methods are processed through our trusted partnered payment companies (Stripe, PayPal & Klarna) for additional security.<\/p>"
+          }
+        },
+        "separator_CNMMRC": {
+          "type": "separator",
+          "settings": {
+            "title": "Returns & Refunds"
+          }
+        },
+        "question_mAfqJ9": {
+          "type": "question",
+          "settings": {
+            "title": "How can I return an item?",
+            "answer": "<p>If you wish to make a return simply <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a> and our customer service will provide you with a return label.<\/p>"
+          }
+        },
+        "question_gEG99t": {
+          "type": "question",
+          "settings": {
+            "title": "How long do I have to return an item?",
+            "answer": "<p>Your online order can be returned within 30 days of receiving your parcel. We’ll take the date on delivery as a starting point.<\/p><p>The following applies to all items: we can only take them back if they’re returned in the same condition as they were sent and have their original tags.<\/p><p>Incomplete returns or items that have been worn or washed won’t be accepted.<\/p><p>If pieces have deteriorated due to extensive use, it can happen that we send them back to you. To avoid mistakes in scanning your returns the items should match the return label. If you have items from multiple orders that you’d like to send back, please make sure to use the correct label for each return and pack them separately.<\/p>"
+          }
+        },
+        "question_8AWtNC": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "answer": "<p>We offer 30 day paid returns after your order has been received given certain conditions are met.<\/p><p>For lost or stolen packages we offer full compensation.<\/p><p>You can find our full <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">return policy<\/a> here.<\/p>"
+          }
+        },
+        "question_BNEwQX": {
+          "type": "question",
+          "settings": {
+            "title": "In case of a return, will I receive a refund on the shipping cost?",
+            "answer": "<p>Due to a history of people overusing returns, we can only partially cover return costs once the items find its way back to us.<\/p>"
+          }
+        },
+        "question_6nxxCf": {
+          "type": "question",
+          "settings": {
+            "title": "When will I receive a refund after I returned an item\/an order?",
+            "answer": "<p>It usually takes up to 5-10 working days for a return to reach our warehouse. Once it gets there the parcel is scanned, after which a refund is automatically triggered.<\/p><p>It takes about 8 to 10 working days after the returned items are scanned for the refund to find its way back to your bank account. We’ll be using the same payment method you did whilst placing the order.<\/p><p>For the latest updates on your refund, it’s easiest to check your bank account directly. If you paid by credit card, no amount has been deducted from your account, or the reserved amount will be released back to your bank account.<\/p>"
+          }
+        },
+        "separator_cJXCCH": {
+          "type": "separator",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "question_rAQexm": {
+          "type": "question",
+          "settings": {
+            "title": "What is Aria Valentina?",
+            "answer": "<p>Aria Valentina is a newly founded fashion brand with the goal of reimagining beauty for everyone.<\/p><p>Rediscover Fashion. Reveal Beauty. Reinvent Yourself.<\/p><p><strong>Welcome to the Aria Valentina Family.<\/strong><\/p>"
+          }
+        },
+        "question_hnMNU3": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need an account to place an order?",
+            "answer": "<p>No, you don’t need to have an account to place an order. You can choose to checkout as a guest as well, just make sure you fill out a shipping address and contact details so we can contact you and we know where to deliver the order.<\/p>"
+          }
+        },
+        "question_XRa3iC": {
+          "type": "question",
+          "settings": {
+            "title": "How can I subscribe for\/unsubscribe from the newsletter?",
+            "answer": "<p>You can stay updated with the latest from Aria Valentina by subscribing to our newsletter through various channels:<\/p><ul><li>Keep an eye out for a pop-up when you first visit our website. Simply enter your details to subscribe.<\/li><li>While creating an account or placing an order, tick the newsletter checkbox to opt-in. During checkout, you'll see the option to subscribe. There is also a sign up form on this website's footer section.<\/li><\/ul><p><strong>Unsubscribing from Our Newsletter:<\/strong><\/p><p>If you wish to unsubscribe from our newsletter, we offer multiple avenues:<\/p><ul><li>Open any newsletter email from us and scroll to the bottom. You'll find an \"unsubscribe\" or \"opt-out\" button to manage your subscriptions.<\/li><li>If you encounter any difficulties unsubscribing, reach out to us for assistance. We're here to help fulfill your request promptly.<\/li><\/ul>"
+          }
+        },
+        "question_CyEwq3": {
+          "type": "question",
+          "settings": {
+            "title": "Do you collect any personal data?",
+            "answer": "<p>We  use your personal data in order to achieve different purposes such as to handle your orders and to send you newsletters if you have subscribed to receive those.<\/p><p>To find out what personal data we collect and why, you can have a look at our<a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\"> privacy policy<\/a> here.<\/p>"
+          }
+        },
+        "question_mPcLft": {
+          "type": "question",
+          "settings": {
+            "title": "What measurements do you take to produce sustainable clothing?",
+            "answer": "<p>At Aria Valentina we care a lot about not only crafting great apperal, but also doing so in a sustainable manner.<\/p><p>You can see what measurements we take to achieve a better future for all on our <a href=\"\/pages\/sustainabillity\" title=\"Sustainabillity\">sustainabillity<\/a> page.<\/p>"
+          }
+        },
+        "question_NV3DKa": {
+          "type": "question",
+          "settings": {
+            "title": "How can I create an account?",
+            "answer": "<p>To create an account, you click on ‘Sign in’ on the top right of the website. If you’re using your phone find the ‘menu’ button and use the ‘Sign in’ button on the top right of the menu page. You can then create an account following the instructions in the 'sign up' section.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "separator_iHFWq4",
+        "question_9RqUkN",
+        "question_nkRph9",
+        "question_ThNUy6",
+        "question_RFjGcf",
+        "question_ptX6kB",
+        "question_ez4pnN",
+        "question_r8FFwR",
+        "question_VgDtTt",
+        "separator_xpew8L",
+        "question_kcPHbx",
+        "question_gTMY9g",
+        "question_3btHwi",
+        "question_rcaLtL",
+        "question_MXbHa6",
+        "question_biNJAw",
+        "separator_CNMMRC",
+        "question_mAfqJ9",
+        "question_gEG99t",
+        "question_8AWtNC",
+        "question_BNEwQX",
+        "question_6nxxCf",
+        "separator_cJXCCH",
+        "question_rAQexm",
+        "question_hnMNU3",
+        "question_XRa3iC",
+        "question_CyEwq3",
+        "question_mPcLft",
+        "question_NV3DKa"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
