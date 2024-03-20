@@ -24,7 +24,6 @@
         },
         "variant_selector_YYVgyi": {
           "type": "variant_selector",
-          "disabled": true,
           "settings": {
             "selector_mode": "block",
             "show_color_swatch": true,
