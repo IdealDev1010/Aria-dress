@@ -1,0 +1,80 @@
+.size-chart-table table {
+    width: 100%;
+    font-size: 12px;
+    border-collapse: separate;
+}
+
+.size-chart-table tbody {
+    box-sizing: border-box !important;
+}
+
+.size-chart-table {
+    overflow: auto;
+}
+.size-chart-table td {
+    height: 22px;
+}
+.size-chart-table tr:first-child td {
+    border-top: 1px solid #ddd;
+}
+
+.size-chart-table td:first-child {
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
+}
+
+.size-chart-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-top: none;
+    text-align: center;
+}
+
+.close-model {
+    position: absolute;
+    background-color: transparent;
+    top: 10px;
+    right: 10px;
+    margin-top: 0;
+    box-shadow: none;
+    width: 55px;
+    height: 55px;
+}
+
+#modal-size-chart {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0;
+    z-index: 9999;
+}
+
+.modal-wrapper {
+    position: absolute;
+    width: 90%;
+    max-width: 600px;
+    max-height: 770px;
+    background-color: #fff;
+    overflow-y: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 0;
+}
+
+#modal-size-chart .Modal__Close {
+    position: absolute;
+    margin: 0;
+    right: 20px;
+    top: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.size-chart-table table td {
+    text-align: center;
+    width: calc(100% / 6);
+    padding: 15px 0;
+}
