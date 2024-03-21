@@ -22,3 +22,15 @@
  *   bubbles: true
  * }));
  */
+
+
+$(document).ready(function(){
+    $(document).on('click', '#modal-size-chart', function(e){
+        console.log($(this).find('.Modal__Close')[0]);
+        $(this).find('.Modal__Close')[0].click();
+    });
+
+    $(document).on('click', '#modal-size-chart .modal-wrapper', function(e){
+        e.stopPropagation();
+    });
+});
