@@ -1084,7 +1084,7 @@ body:not(.is-tabbing) textarea:focus {
 
 @media screen and (min-width: 1140px) {
   .Container {
-    padding: 0 80px;
+    padding: 0 70px;
   }
 }
 /**
