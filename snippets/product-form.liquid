@@ -21,7 +21,7 @@ for size, we use it to display a size chart (if applicable)
         {%- assign show_option_label = true -%}
       {%- endif -%}
     {%- endfor -%}
-
+    {% comment %} {% render 'size-chart', section:section %} {% endcomment %}
     {%- for option in product.options_with_values -%}
       {%- assign downcase_option = option.name | downcase -%}
       {%- capture popover_id -%}popover-{{ product.id }}-{{ section.id }}-{{ option.name | handle }}{%- endcapture -%}
@@ -36,11 +36,11 @@ for size, we use it to display a size chart (if applicable)
             {% if color_label contains downcase_option and block.settings.show_color_swatch %}
               <span class="ProductForm__SelectedValue">{{ option.selected_value }}</span>
             {% endif %}
-
+            
             {%- if size_label contains downcase_option and size_chart_page != blank -%}
               <button type="button" class="ProductForm__LabelLink Link Text--subdued" data-action="open-modal" aria-controls="modal-{{ size_chart_page.handle }}">
-              {{- 'product.form.size_chart' | t -}}
-            </button>
+                 Size Chart  
+              </button>
             {%- endif -%}
           </span>
         {%- endif -%}
@@ -237,17 +237,24 @@ for size, we use it to display a size chart (if applicable)
 
   {%- capture product_modals -%}
     <div id="modal-{{ size_chart_page.handle }}" class="Modal Modal--dark Modal--fullScreen Modal--pageContent" aria-hidden="true" role="dialog" data-scrollable>
-      <header class="Modal__Header">
-        <h2 class="Modal__Title Heading u-h1">{{ size_chart_page.title }}</h2>
-      </header>
+      <div class="modal-wrapper">
+        {% comment %} <button class="Modal__Close custom_model_close" data-animate-bottom="" data-action="close-modal"></button> {% endcomment %}
+        {% comment %} <header class="Modal__Header">
+          <h2 class="Modal__Title Heading u-h1">{{ size_chart_page.title }}</h2>
+        </header> {% endcomment %}
+        <div  class="Modal__content">
+          <button class="Modal__Close RoundButton RoundButton--large" data-animate-bottom="" data-action="close-modal"><svg class="Icon Icon--close " role="presentation" viewBox="0 0 16 14">
+            <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>
+          </svg></button>
+          <div class="Modal__Content Rte">
+            <div class="Container Container--extraNarrow">
+              {% render 'size-chart', section: section %}
+              {% comment %} {{- size_chart_page.content -}} {% endcomment %}
+            </div>
+          </div>
 
-      <div class="Modal__Content Rte">
-        <div class="Container Container--extraNarrow">
-          {{- size_chart_page.content -}}
         </div>
       </div>
-
-      <button class="Modal__Close RoundButton RoundButton--large" data-animate-bottom data-action="close-modal">{% render 'icon' with 'close' %}</button>
     </div>
   {%- endcapture -%}
 {%- endif -%}

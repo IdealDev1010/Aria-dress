@@ -1,0 +1,67 @@
+{{ 'size-chart.css' | asset_url | stylesheet_tag }}
+
+<div class="size-chart-container">
+    {{ section.settings.chart_image  }}
+    <div class="size-chart-image">
+        <img class="CartItem__Image" src="https://cdn.shopify.com/s/files/1/0635/0405/6469/files/size_chart.png?v=1710980399" alt="Size Chart">
+    </div>
+    {% comment %} <div class="size-chart-info">
+        <div class="size-chart-icon">{{ section.settings.icon }}</div>
+        <p class="size-chart-subtitle">{{ section.settings.subtitle }}</p>
+        <div class="size-chart-subdescription">{{ section.settings.subdescription }}</div>
+    </div> {% endcomment %}
+    <div class="size-chart-table">
+        <table>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><strong>XS</strong></td>
+                    <td><strong>S</strong></td>
+                    <td><strong>M</strong></td>
+                    <td><strong>L</strong></td>
+                    <td><strong>XL</strong></td>
+                </tr>
+                <tr>
+                    <td>AUS/NZ/UK</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>USA/CA</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>BUST</td>
+                    <td>82-85 cm</td>
+                    <td>82-85 cm</td>
+                    <td>86-89 cm</td>
+                    <td>90-93 cm</td>
+                    <td>94-97 cm</td>
+                </tr>
+                <tr>
+                    <td>WAIST</td>
+                    <td>65-68 cm</td>
+                    <td>69-72 cm</td>
+                    <td>73-77 cm</td>
+                    <td>78-81 cm</td>
+                    <td>82-85 cm</td>
+                </tr>
+                <tr>
+                    <td>LENGtd</td>
+                    <td>105-106 cm</td>
+                    <td>106-107 cm</td>
+                    <td>107-108 cm</td>
+                    <td>108-109 cm</td>
+                    <td>109-110 cm</td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+</div>

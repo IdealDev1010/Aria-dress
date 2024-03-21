@@ -61,7 +61,8 @@
         "stack_images": true,
         "show_thumbnails": true,
         "enable_image_zoom": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "chart_image": "shopify:\/\/shop_images\/samaria-3g_1_1.jpg"
       }
     },
     "673159ccdc8585e77842": {
