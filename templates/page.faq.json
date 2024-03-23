@@ -27,7 +27,7 @@
           "type": "question",
           "settings": {
             "title": "How long does shipping take and how much does it cost?",
-            "answer": "<p>Once you are at checkout you can see an estimated timeframe for different shipping method for your product. These are:<\/p><ul><li>Standard Delivery, costs $4.95 and packages are delivered within 6-10 business days after order confirmation.<\/li><li>Premium Delivery, costs $7.95 and packages are delivered within 6-10 business days after order confirmation.<\/li><li>Free shipping on orders over $50<\/li><\/ul><p>Unexpected delays with our carriers may affect delivery times.<\/p>"
+            "answer": "<p>Once you are at checkout you can see an estimated timeframe for different shipping method for your product. These are:<\/p><ul><li>Standard Delivery, costs €4.95 and packages are delivered within 5-9 business days after order confirmation.<\/li><li>Premium Delivery, costs €7.95 and packages are delivered within 4-8 business days after order confirmation.<\/li><li>Free shipping on orders over €50<\/li><\/ul><p>Unexpected delays with our carriers may affect delivery times.<\/p>"
           }
         },
         "question_RFjGcf": {
