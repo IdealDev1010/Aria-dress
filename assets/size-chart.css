@@ -1,9 +1,8 @@
 .size-chart-table table {
     width: 100%;
-    font-size: 12px;
-    border-collapse: separate;
+    font-size: 14px;
+    border-collapse: collapse;
 }
-
 .size-chart-table tbody {
     box-sizing: border-box !important;
 }
@@ -14,22 +13,26 @@
 .size-chart-table td {
     height: 22px;
 }
-.size-chart-table tr:first-child td {
+/* .size-chart-table tr:first-child td {
     border-top: 1px solid #ddd;
+} */
+
+.size-chart-table tr:nth-child(odd) {
+    background-color: #ddd;
 }
 
-.size-chart-table td:first-child {
+/* .size-chart-table td:first-child {
     padding-left: 10px;
     border-left: 1px solid #ddd;
-}
-
+} */
+/* 
 .size-chart-table td {
     padding: 10px;
     border: 1px solid #ddd;
     border-left: none;
     border-top: none;
     text-align: center;
-}
+} */
 
 .close-model {
     position: absolute;
