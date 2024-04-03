@@ -182,18 +182,6 @@
         "disabled": false,
         "settings": {
         }
-      },
-      "14952540001915115444": {
-        "type": "shopify:\/\/apps\/upcart-cart-drawer\/blocks\/app-embed\/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "18423266570658624584": {
-        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
-        "disabled": false,
-        "settings": {
-        }
       }
     }
   },
