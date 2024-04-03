@@ -26,6 +26,7 @@
 
 $(document).ready(function(){
     $(document).on('click', '#modal-size-chart', function(e){
+        console.log("ddd");
         console.log($(this).find('.Modal__Close')[0]);
         $(this).find('.Modal__Close')[0].click();
     });
