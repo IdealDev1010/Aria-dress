@@ -5711,7 +5711,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .Table td,
 .Rte table th,
 .Rte table td {
-  padding: 18px 10px;
+  /* padding: 18px 10px; */
   border-bottom: 1px solid var(--border-color);
   text-align: left;
 }

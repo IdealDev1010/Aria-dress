@@ -1,6 +1,6 @@
-.size-chart-table table {
+.size-chart-container table {
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
     border-collapse: collapse;
 }
 .size-chart-table tbody {
@@ -13,21 +13,31 @@
 .size-chart-table td {
     height: 22px;
 }
-.size-chart-table tr:first-child td {
-    border-top: 1px solid #ddd;
-}
 
-.size-chart-table tr:nth-child(odd) {
+.size-chart-container tr:nth-child(odd) {
+    background-color: #dddddd;
+    
+}
+.size-chart-container table tr:first-child td {
+   font-size: 14px;
+   border-top:1px solid #ddd;
+   
+}
+.size-chart-container table tr:nth-child() {
     background-color: #ddd;
 }
 
-.size-chart-table td:first-child {
-    padding-left: 10px;
-    border-left: 1px solid #ddd;
+.size-chart-container table td:first-child {
+    font-size:14px;
+    border-left:1px solid #ddd;
 }
 
-.size-chart-table td {
-    padding: 10px;
+.size-chart-container table td:last-child {
+    padding-left: 10px;
+}
+
+.size-chart-container td {
+    padding: 12px 0px;
     border: 1px solid #ddd;
     border-left: none;
     border-top: none;
@@ -64,7 +74,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 #modal-size-chart .Modal__Close {
@@ -76,10 +86,9 @@
     height: 35px;
 }
 
-.size-chart-table table td {
+.size-chart-container table td {
     text-align: center;
-    width: calc(100% / 6);
-    padding: 15px 0;
+    width: calc(100% / 6) !important;
 }
 
 .size-chart-title {

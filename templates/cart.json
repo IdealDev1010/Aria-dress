@@ -12,16 +12,6 @@
     },
     "alireviews-section-7a43f26a-a1ce-43b6-9ac2-583d4824377c": {
       "type": "apps",
-      "blocks": {
-        "7d0ebb37-298c-42cf-8448-10d0c0023e0c": {
-          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box-in-cart\/bf2eea72-0400-4db1-8908-44b7418f9a88",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "7d0ebb37-298c-42cf-8448-10d0c0023e0c"
-      ],
       "settings": {
         "include_margins": true
       }

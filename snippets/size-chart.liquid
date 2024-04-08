@@ -1,7 +1,7 @@
 {{ 'size-chart.css' | asset_url | stylesheet_tag }}
 
 <div class="size-chart-container">
-    <h2 class="size-chart-title">Size Guide - Dresses</h2>
+    {% comment %} <h2 class="size-chart-title">Size Guide - Dresses</h2>
     <p class="size-chart-description">Please note that our sizing charts below are a general guide. If you require further sizing information, or sizing enquiries regarding a particular item, our customer care team are&nbsp;here to&nbsp;help! Please contact us via our <a href="https://www.ariavalentina.com/pages/contact">contact form</a>.</p>
     {% comment %} <div class="size-chart-image">
         <img class="CartItem__Image" src="https://cdn.shopify.com/s/files/1/0635/0405/6469/files/Group_1_2.png?v=1711123698" alt="Size Chart">
@@ -45,6 +45,7 @@
                 </tr>
             </tbody>
           </table>
-    </div>
+    </div> {% endcomment %}
+    {{ section.settings.chart_page.content }}
 </div>
 
